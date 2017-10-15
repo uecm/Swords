@@ -13,9 +13,11 @@
 		74A58EEC1F93EC5400AA8E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A58EEB1F93EC5400AA8E83 /* Assets.xcassets */; };
 		74A58EEF1F93EC5400AA8E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A58EED1F93EC5400AA8E83 /* LaunchScreen.storyboard */; };
 		74A58EF21F93EC5400AA8E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A58EF11F93EC5400AA8E83 /* main.m */; };
+		F40E91E58C4B64BFB57E7F19 /* libPods-Swords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77954363EFDC1B11234BB04F /* libPods-Swords.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CFB7AE4EA602775E2D217C5 /* Pods-Swords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swords/Pods-Swords.debug.xcconfig"; sourceTree = "<group>"; };
 		74A58EDF1F93EC5300AA8E83 /* Swords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A58EE21F93EC5300AA8E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74A58EE31F93EC5300AA8E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		74A58EEE1F93EC5400AA8E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A58EF01F93EC5400AA8E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74A58EF11F93EC5400AA8E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77954363EFDC1B11234BB04F /* libPods-Swords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Swords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A01EEFDB3A61B15473A167 /* Pods-Swords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swords.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swords/Pods-Swords.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40E91E58C4B64BFB57E7F19 /* libPods-Swords.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0158854C5E1D52FB4CC23457 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77954363EFDC1B11234BB04F /* libPods-Swords.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44CD1F3CC6771485FB0079F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CFB7AE4EA602775E2D217C5 /* Pods-Swords.debug.xcconfig */,
+				97A01EEFDB3A61B15473A167 /* Pods-Swords.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		74A58ED61F93EC5300AA8E83 = {
 			isa = PBXGroup;
 			children = (
 				74A58EE11F93EC5300AA8E83 /* Swords */,
 				74A58EE01F93EC5300AA8E83 /* Products */,
+				44CD1F3CC6771485FB0079F7 /* Pods */,
+				0158854C5E1D52FB4CC23457 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74A58EF51F93EC5400AA8E83 /* Build configuration list for PBXNativeTarget "Swords" */;
 			buildPhases = (
+				BB46D8A8DCBC977F2608D766 /* [CP] Check Pods Manifest.lock */,
 				74A58EDB1F93EC5300AA8E83 /* Sources */,
 				74A58EDC1F93EC5300AA8E83 /* Frameworks */,
 				74A58EDD1F93EC5300AA8E83 /* Resources */,
+				7CE084628D68F689EB5F9C6A /* [CP] Embed Pods Frameworks */,
+				89152C94620630B1C70FDDE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CE084628D68F689EB5F9C6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swords/Pods-Swords-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89152C94620630B1C70FDDE3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swords/Pods-Swords-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB46D8A8DCBC977F2608D766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swords-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74A58EDB1F93EC5300AA8E83 /* Sources */ = {
@@ -276,6 +354,7 @@
 		};
 		74A58EF61F93EC5400AA8E83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFB7AE4EA602775E2D217C5 /* Pods-Swords.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +369,7 @@
 		};
 		74A58EF71F93EC5400AA8E83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A01EEFDB3A61B15473A167 /* Pods-Swords.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
