@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		748A59261FDD932C003EFFC9 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A59251FDD932C003EFFC9 /* MenuTableViewController.m */; };
+		748A59291FDD9CE2003EFFC9 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A59281FDD9CE2003EFFC9 /* Level.m */; };
+		748A592C1FDD9FC7003EFFC9 /* LetterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748A592B1FDD9FC7003EFFC9 /* LetterCell.xib */; };
+		748A592F1FDDA014003EFFC9 /* LetterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A592E1FDDA014003EFFC9 /* LetterCell.m */; };
+		748A59311FE1F25C003EFFC9 /* 4-character-words-rus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 748A59301FE1F25B003EFFC9 /* 4-character-words-rus.txt */; };
 		74A58EE41F93EC5300AA8E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A58EE31F93EC5300AA8E83 /* AppDelegate.m */; };
-		74A58EE71F93EC5300AA8E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A58EE61F93EC5300AA8E83 /* ViewController.m */; };
+		74A58EE71F93EC5300AA8E83 /* GameSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A58EE61F93EC5300AA8E83 /* GameSceneViewController.m */; };
 		74A58EEA1F93EC5400AA8E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A58EE81F93EC5400AA8E83 /* Main.storyboard */; };
 		74A58EEC1F93EC5400AA8E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A58EEB1F93EC5400AA8E83 /* Assets.xcassets */; };
 		74A58EEF1F93EC5400AA8E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A58EED1F93EC5400AA8E83 /* LaunchScreen.storyboard */; };
@@ -18,11 +23,19 @@
 
 /* Begin PBXFileReference section */
 		0CFB7AE4EA602775E2D217C5 /* Pods-Swords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swords/Pods-Swords.debug.xcconfig"; sourceTree = "<group>"; };
+		748A59241FDD932C003EFFC9 /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		748A59251FDD932C003EFFC9 /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		748A59271FDD9CE2003EFFC9 /* Level.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		748A59281FDD9CE2003EFFC9 /* Level.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		748A592B1FDD9FC7003EFFC9 /* LetterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterCell.xib; sourceTree = "<group>"; };
+		748A592D1FDDA014003EFFC9 /* LetterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterCell.h; sourceTree = "<group>"; };
+		748A592E1FDDA014003EFFC9 /* LetterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterCell.m; sourceTree = "<group>"; };
+		748A59301FE1F25B003EFFC9 /* 4-character-words-rus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "4-character-words-rus.txt"; sourceTree = "<group>"; };
 		74A58EDF1F93EC5300AA8E83 /* Swords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A58EE21F93EC5300AA8E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74A58EE31F93EC5300AA8E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74A58EE51F93EC5300AA8E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74A58EE61F93EC5300AA8E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74A58EE51F93EC5300AA8E83 /* GameSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSceneViewController.h; sourceTree = "<group>"; };
+		74A58EE61F93EC5300AA8E83 /* GameSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameSceneViewController.m; sourceTree = "<group>"; };
 		74A58EE91F93EC5400AA8E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74A58EEB1F93EC5400AA8E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A58EEE1F93EC5400AA8E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +74,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		748A592A1FDD9F8D003EFFC9 /* Letter Cell */ = {
+			isa = PBXGroup;
+			children = (
+				748A592B1FDD9FC7003EFFC9 /* LetterCell.xib */,
+				748A592D1FDDA014003EFFC9 /* LetterCell.h */,
+				748A592E1FDDA014003EFFC9 /* LetterCell.m */,
+			);
+			path = "Letter Cell";
+			sourceTree = "<group>";
+		};
 		74A58ED61F93EC5300AA8E83 = {
 			isa = PBXGroup;
 			children = (
@@ -84,13 +107,19 @@
 			children = (
 				74A58EE21F93EC5300AA8E83 /* AppDelegate.h */,
 				74A58EE31F93EC5300AA8E83 /* AppDelegate.m */,
-				74A58EE51F93EC5300AA8E83 /* ViewController.h */,
-				74A58EE61F93EC5300AA8E83 /* ViewController.m */,
 				74A58EE81F93EC5400AA8E83 /* Main.storyboard */,
+				74A58EE51F93EC5300AA8E83 /* GameSceneViewController.h */,
+				74A58EE61F93EC5300AA8E83 /* GameSceneViewController.m */,
+				748A59271FDD9CE2003EFFC9 /* Level.h */,
+				748A59281FDD9CE2003EFFC9 /* Level.m */,
+				748A592A1FDD9F8D003EFFC9 /* Letter Cell */,
+				748A59241FDD932C003EFFC9 /* MenuTableViewController.h */,
+				748A59251FDD932C003EFFC9 /* MenuTableViewController.m */,
 				74A58EEB1F93EC5400AA8E83 /* Assets.xcassets */,
 				74A58EED1F93EC5400AA8E83 /* LaunchScreen.storyboard */,
 				74A58EF01F93EC5400AA8E83 /* Info.plist */,
 				74A58EF11F93EC5400AA8E83 /* main.m */,
+				748A59301FE1F25B003EFFC9 /* 4-character-words-rus.txt */,
 			);
 			path = Swords;
 			sourceTree = "<group>";
@@ -159,6 +188,8 @@
 				74A58EEF1F93EC5400AA8E83 /* LaunchScreen.storyboard in Resources */,
 				74A58EEC1F93EC5400AA8E83 /* Assets.xcassets in Resources */,
 				74A58EEA1F93EC5400AA8E83 /* Main.storyboard in Resources */,
+				748A59311FE1F25C003EFFC9 /* 4-character-words-rus.txt in Resources */,
+				748A592C1FDD9FC7003EFFC9 /* LetterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,9 +217,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Swords/Pods-Swords-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FCAlertView/FCAlertView.bundle,
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,7 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A58EE71F93EC5300AA8E83 /* ViewController.m in Sources */,
+				748A59291FDD9CE2003EFFC9 /* Level.m in Sources */,
+				748A59261FDD932C003EFFC9 /* MenuTableViewController.m in Sources */,
+				74A58EE71F93EC5300AA8E83 /* GameSceneViewController.m in Sources */,
+				748A592F1FDDA014003EFFC9 /* LetterCell.m in Sources */,
 				74A58EF21F93EC5400AA8E83 /* main.m in Sources */,
 				74A58EE41F93EC5300AA8E83 /* AppDelegate.m in Sources */,
 			);

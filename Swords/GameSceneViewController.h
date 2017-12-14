@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface GameSceneViewController : UIViewController
 
+@property (assign, nonatomic) NSInteger levelNumber;
 
 @end
 
